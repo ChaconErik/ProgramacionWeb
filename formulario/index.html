@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Formatos</title>
+</head>
+<body>
+<form align = "center" action = "/formato.html" method = "POST">
+	<!--LOGIN EXMAEN-->
+	<h2>Inicie sesión para ingresar al examen.</h2>
+	<!--Usuario-->
+  <label for = "usuario"> Usuario: </label>
+  <br>
+  <input type = "text" name = "user" id = "usuario">
+  <br>
+  <br>
+  <!--Contraseña-->
+  <label for = "contraseña"> Contraseña: </label>
+  <br>
+  <input type = "password" id = "contraseña" name = "pass" >
+  <br>
+  <br>
+  <!--Entrar a examen-->
+  <input type="submit" name="Entrar">
+</form>
+<h2>********************************************************************************************************************</h2>
+<form>
+ <h2> Conteste las siguientes preguntas del examen.
+ </h2>
+ <!--Caja de verificacion, pregunta-->
+ <h3>1.- Elija una o más opciones correctas. </h3>
+ 
+  <input id = "1" name = "web2.0" type = "checkbox" value = "1">
+  <label for = "1"> En la web 2.0 se implemento la intereacción AJAX </label>
+  <br>
+  <input id = "2" name = "web3.0" type = "checkbox" value = "2">
+  <label for = "2"> En la web 3.0 se origino la web inteligente </label>
+  <br>
+  <input id = "3" name = "web1.0" type = "checkbox" value = "3">
+  <label for = "3"> En la web 1.0 aparecieron las redes sociales </label>
+ <br>
+ <!--Botones de opcion, pregunta-->
+ <h3>2.- Seleccione el año al que corresponde cada Web. </h3>
+  
+  <input type = "radio" id = "fecha1" name = "respuesta1" value = "fecha1">
+  <label for = "fecha1"> Web 1.0: 2000, Web 2.0: 2010, Web 3.0: 2016, Web 4.0: Actualidad. </label>
+  <br>
+  <input type = "radio" id = "fecha2" name = "respuesta2" value = "fecha2">
+  <label for = "fecha2"> Web 1.0: 1980, Web 2.0: 1990, Web 3.0: 2000, Web 4.0: 2017. </label>
+  <br>
+ <!--Lista despegable, pregunta-->
+ <label for = "pregunta3"> <h3>3.- ¿Quién concibio la idea del WWW? </h3> </label>
+  <select id = "pregunta3" name = "www">
+    <option value = "steve jobs"> Steve Jobs </option>
+    <option value = "bill gates"> Bill Gates </option>
+    <option value = "tim berner"> Tim Berner </option>
+    <option value = "richar stallman"> Richard Stallman </option>
+  </select>
+  <br>
+ <!--Lista de datos, pregunta-->
+ <label for = "pregunta4"> <h3>
+ 4.- ¿Qué programa se utiliza para la tecnología cliente (Fronted)? </h3></label>
+  <input type = "text" list = "programas" id = "pregunta4" name = "programas">
+  <datalist id = "pregunta4">
+    <option value = "Ruby"> </option>
+    <option value = "PHP"> </option>
+    <option value = "HTML"> </option>
+    <option value = "Phyton"</option>
+  </datalist>
+  <br>
+  <!--Area de Texto, pregunta-->
+ <label for = "pregunta5"> <h3>5.- Describa que es una aplicacion Web y como se usan en la vida diaria.</h3> </label>
+  <textarea id = "pregunta5" name = "area" rows = "5" cols = "60">
+  </textarea>
+  <br>
+	<label for = "fecha"> <h3>6.- ¿Cómo evaluaria el desempeño del docente? (Rellene la barra conforme al desempeño que considere)</h3></label>
+	<label>1</label>
+  <input id = "fecha" name = "www" type = "range" min = "1" max = "10" step = "1">
+  <label>10</label>
+</form>
+<form align = "center">
+	<input type="submit" name="Entrar">
+</form>
+
+</body>
