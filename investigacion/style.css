@@ -1,0 +1,27 @@
+/*Titulo*/
+h2 { font-size: xx-large; text-align: center; }
+h2 { width: 2px 
+height: 50px; 
+background-color: lightgray;}
+/*Fondo*/
+body{background-image: url("fondo.jpg"); background-size: cover;}
+/*Parrafos*/
+p {font-size: x-large; font: Arial}
+/*imagenes centradas*/
+figure{ text-align: center; }
+/*listas*/
+#dos {font-size: x-large; font: Arial;
+width: 1300px; 
+height: 410px; 
+border: gray 5px solid;}
+#cinco {font-size: x-large; font: Arial;
+width: 500px; 
+height: 200px; 
+border: gray 10px solid;
+background-image: url(cuader.jpg);}
+/*centrar*/
+*{margin-left: 15px}"
+
+
+
+
