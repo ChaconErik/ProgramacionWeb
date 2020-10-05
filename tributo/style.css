@@ -1,0 +1,64 @@
+
+#cuerpouno{
+	background-image: url("fo1.jpg"); background-size: cover;
+	font-size: 25px;
+	font-style: italic;	
+}
+#cuerpodos{
+	background-image: url("f2.jpg"); background-size: cover;
+	font-size: 30px;
+	font-style: initial;
+	color: white;
+}
+/*centro las cajas*/
+#uno{
+	width: 1200px;
+	margin-left: 135px;
+	box-sizing: border-box;
+	text-align: center;
+}
+#dos{
+	border: 5px double red;
+	background: #E74C3C ;
+	width: 1200px;
+	padding: 20px 50px 20px 50px;
+	margin-left: 100px;
+	box-sizing: border-box;
+}
+h3{
+	text-align: center;
+}
+#tres{
+	border: 5px outset yellow;
+	background: #F39C12;
+	width: 1200px;
+	padding: 20px 50px 20px 50px;
+	margin-left: 100px;
+	box-sizing: border-box;
+	text-align: center;
+}
+#cuatro{
+	border: 3px dashed pink;
+	background: #74EB68;
+	width: 1200px;
+	padding: 20px 50px 20px 50px;
+	margin-left: 100px;
+	box-sizing: border-box;
+}
+#cinco{
+	border: 15px ridge;
+	background: #68EBC7;
+	width: 1200px;
+	margin-left: 100px;
+	box-sizing: border-box;
+	overflow-x: scroll ;
+	white-space: nowrap;
+}	
+div#formulario{
+	
+	width: 500px;
+	margin-left: 470px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
