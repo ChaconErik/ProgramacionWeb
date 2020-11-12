@@ -1,0 +1,48 @@
+*{
+	font-family: verdana;
+  color: white;
+}
+body{
+  background-color: black;
+}
+h1{
+  color: #7B869B;
+  font-weight: normal;
+  font-size: 60px;
+  font-family: Arial;
+  text-transform: uppercase;
+}
+#dos{
+	text-align: center;
+}
+.puno{
+	font-size: 45px;
+
+}	
+p.pdos:first-letter{
+   float:left;
+   font-size: 4.25em;
+   font-style:italic;
+   line-height:0.30em; 
+   padding:0.1em 0.01em 0 0; 
+}
+#presentacion{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+#contdos,#lme,#contcuatro{
+	display: none;
+}
+#contcuatro{
+	text-align: center;
+}
+#lista{
+	list-style: none;
+}
+img{
+  width: 100%;
+}
+#jumbotron{
+  background-color: #424751;
