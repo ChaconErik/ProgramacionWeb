@@ -1,0 +1,48 @@
+*{
+  font-family: verdana;
+}
+body{
+  background-color: white;
+
+}
+h1{
+  color: #7B869B;
+  font-weight: normal;
+  font-size: 60px;
+  font-family: Arial;
+  text-transform: uppercase;
+}
+img{
+  width: 100%;
+  border-radius: 8px;
+}
+#t1,#t2,#t3,#t4,#t5,#preguntas,#somos,#e1,#e2,#e3,#e4,#e5,#dch1,#dch2,#dch3,#dch4,#dch5,#dch6,#dch7,#dj,
+#dcd1,#dcd2,#dcd3,#dcd4,#dcd5,#dcd6,#dqr1,#dqr2,#dqr3,#dqr4,#dqr5,#dqt1,#dqt2,#dqt3,#dqt4,#dqt5,#pago,#comprado,#apartado,#cancelado{
+  display: none;
+}
+.card{
+  width: 18rem;
+}
+#piepagina{
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  text-align: center;
+}
+#pie{
+  background-color: black;
+}
+.uno{
+  width: 20%;
+}
+#segu{
+  color: #1DB9E3;
+}
+#pagolinea{
+  width: 80%;
+}
+.relleno{
+  width: 50%;
+}
